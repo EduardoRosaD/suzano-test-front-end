@@ -30,10 +30,23 @@ O sistema permite listar, cadastrar, filtrar e ordenar produtos, com uma interfa
 
 ## 📂 Estrutura do Projeto
 
-/components
-/context
-/mocks
-/pages
-/services
-/styles
-/types
+📦 src
+ ┣ 📂 components
+ ┃ ┣ 📄 ProductCard.tsx
+ ┃ ┣ 📄 ProductForm.tsx
+ ┃ ┣ 📄 ProductFilter.tsx
+ ┃ ┗ 📄 ProductSorter.tsx
+ ┣ 📂 context
+ ┃ ┗ 📄 ProductContext.tsx
+ ┣ 📂 mocks
+ ┃ ┣ 📄 handlers.ts
+ ┃ ┗ 📄 server.ts
+ ┣ 📂 pages
+ ┃ ┗ 📄 index.tsx
+ ┣ 📂 services
+ ┃ ┗ 📄 api.ts
+ ┣ 📂 styles
+ ┃ ┗ 📄 globals.css
+ ┗ 📂 types
+   ┗ 📄 product.ts
+
