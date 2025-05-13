@@ -28,25 +28,5 @@ O sistema permite listar, cadastrar, filtrar e ordenar produtos, com uma interfa
 - [Context API](https://react.dev/learn/scaling-up-with-reducer-and-context) - Gerenciamento de estado global.
 - [Mock Service Worker (MSW)](https://mswjs.io/) - Mock da API.
 
-## 📂 Estrutura do Projeto
 
-src
-├── components
-│ ├── ProductCard.tsx
-│ ├── ProductForm.tsx
-│ ├── ProductFilter.tsx
-│ └── ProductSorter.tsx
-├── context
-│ └── ProductContext.tsx
-├── mocks
-│ ├── handlers.ts
-│ └── server.ts
-├── pages
-│ └── index.tsx
-├── services
-│ └── api.ts
-├── styles
-│ └── globals.css
-└── types
-└── product.ts
 
