@@ -1,0 +1,82 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProductList Snapshot Test should match the snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="space-y-4"
+  >
+    <div
+      class="flex space-x-2"
+    >
+      <input
+        class="p-2 border rounded"
+        placeholder="Buscar pelo nome"
+        value=""
+      />
+      <input
+        class="p-2 border rounded"
+        placeholder="Preço mínimo"
+        type="number"
+        value=""
+      />
+      <input
+        class="p-2 border rounded"
+        placeholder="Preço máximo"
+        type="number"
+        value=""
+      />
+      <button
+        class="p-2 bg-gray-200 rounded"
+      >
+        Ordenar ▲
+      </button>
+    </div>
+    <ul
+      class="grid grid-cols-1 md:grid-cols-2 gap-4"
+    />
+    <div
+      class="space-y-2 mt-4"
+    >
+      <div
+        class="flex justify-between items-center"
+      >
+        <button
+          class="p-2 bg-gray-200 rounded disabled:opacity-50"
+          disabled=""
+        >
+          Anterior
+        </button>
+        <span>
+          Página 1 de 0
+        </span>
+        <button
+          class="p-2 bg-gray-200 rounded disabled:opacity-50"
+        >
+          Próxima
+        </button>
+      </div>
+      <div
+        class="flex items-center space-x-2"
+      >
+        <input
+          class="p-2 border rounded w-32"
+          max="0"
+          min="1"
+          placeholder="Número da página"
+          type="number"
+          value=""
+        />
+        <button
+          class="p-2 bg-gray-200 rounded disabled:opacity-50"
+          disabled=""
+        >
+          Ir
+        </button>
+      </div>
+      <div
+        class="flex flex-wrap gap-2 mt-2"
+      />
+    </div>
+  </div>
+</DocumentFragment>
+`;
