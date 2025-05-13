@@ -30,3 +30,10 @@ O sistema permite listar, cadastrar, filtrar e ordenar produtos, com uma interfa
 
 ## 📂 Estrutura do Projeto
 
+/components
+/context
+/mocks
+/pages
+/services
+/styles
+/types
