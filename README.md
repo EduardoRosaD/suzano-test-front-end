@@ -1,36 +1,32 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🛒 Catálogo de Produtos - Next.js + TypeScript + Tailwind CSS
 
-## Getting Started
+Este projeto é uma aplicação web para gerenciamento e visualização de um catálogo de produtos.  
+O sistema permite listar, cadastrar, filtrar e ordenar produtos, com uma interface moderna e responsiva.
 
-First, run the development server:
+## 🚀 Funcionalidades
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **✅ Listagem de Produtos**
+  - Nome, Categoria, Preço, Descrição e Imagem.
+  
+- **✅ Cadastro de Produtos**
+  - Formulário com campos: Nome, Preço, Descrição e URL da Imagem.
+  - Produto exibido automaticamente após o cadastro.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **✅ Filtro de Produtos**
+  - Busca por nome.
+  - Filtro por faixa de preço.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **✅ Ordenação de Produtos**
+  - Por nome (A-Z, Z-A).
+  - Por preço (crescente e decrescente).
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🛠️ Tecnologias Utilizadas
 
-## Learn More
+- [Next.js](https://nextjs.org/) - Framework React para produção.
+- [TypeScript](https://www.typescriptlang.org/) - Tipagem estática.
+- [Tailwind CSS](https://tailwindcss.com/) - Estilização.
+- [Context API](https://react.dev/learn/scaling-up-with-reducer-and-context) - Gerenciamento de estado global.
+- [Mock Service Worker (MSW)](https://mswjs.io/) - Mock da API.
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
