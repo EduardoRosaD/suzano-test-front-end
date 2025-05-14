@@ -1,4 +1,5 @@
 "use client";
+import React from 'react';
 
 import { SetStateAction, useState } from "react";
 import { useProductStore } from "@/store/productStore";

@@ -22,12 +22,10 @@ export const useProductStore = create<ProductState>((set) => ({
   fetchProducts: async () => {
     try {
       const response = await fetch('https://dummyjson.com/products');
-      console.log('Response:', response);
       if (!response.ok) {
         throw new Error('Erro ao buscar produtos');
       }
       const result = await response.json();
-      console.log('Dados recebidos:', result);
   
       const data = result.products;
   
@@ -39,8 +37,7 @@ export const useProductStore = create<ProductState>((set) => ({
         description: product.description,
         imageUrl: product.thumbnail,
       }));
-  
-      console.log('Produtos formatados:', products);
+
       set({ products });
     } catch (error) {
       console.error('Erro ao buscar produtos:', error);

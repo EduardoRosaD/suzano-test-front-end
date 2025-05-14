@@ -1,6 +1,7 @@
 // pages/index.tsx
 import ProductForm from '@/components/ProductForm';
 import ProductList from '@/components/ProductList';
+import React from 'react';
 
 export default function Home() {
   return (
